@@ -1,5 +1,5 @@
 {
-  "name": "metawards",
+  "name": "mona",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@3id/connect": "^0.2.5",
     "@braid/vue-formulate": "^2.5.2",
     "@self.id/core": "^0.1.0",
+    "@self.id/web": "^0.1.0",
     "vue": "^3.2.2",
     "vue-router": "^4.0.12"
   },

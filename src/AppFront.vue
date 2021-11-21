@@ -34,7 +34,7 @@ div
                 leave-to-class="transform opacity-0 scale-95"
                 )
                 MenuItems(class="focus:outline-none origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5")
-                  MenuItem(v-for="item in profile" :key="item" v-slot="{ active }")
+                  MenuItem(v-for="item in uprofile" :key="item" v-slot="{ active }")
                     a(href="{{item.link}}" :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']") {{ item }}
         div(class="-mr-2 flex md:hidden")
           // Mobile menu button
@@ -62,7 +62,7 @@ div
             span.sr-only View notifications
             BellIcon.h-6.w-6(aria-hidden="true")
         .mt-3.px-2.space-y-1
-          a(v-for="item in profile" :key="item" href="#" class="hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium text-gray-400") {{ item }}
+          a(v-for="item in uprofile" :key="item" href="#" class="hover:text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium text-gray-400") {{ item }}
   header.bg-white.shadow
     div(class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8")
   main
@@ -78,9 +78,13 @@ div
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
 // import ModalAlt from '@/components/ModalAlt.vue' 
-const navigation = [{title :'About', link:'/how'},{title:'Mint', link:'/awards'}]
-const profile = ['Mint', 'Settings', 'Sign out']
+const navigation = [{title :'About', link:'/how'},{title:'Mint', link:'/mint'}]
+const uprofile = ['Mint', 'Settings', 'Sign out']
+// import { Core } from '@self.id/core'
 
+// connect to a known URL
+// const core = new Core({ ceramic: 'testnet-clay' })
+// const profile = await core.get('basicProfile', id)
 export default {
   components: {
     Disclosure,
@@ -97,8 +101,10 @@ export default {
   setup() {
     return {
       navigation,
-      profile,
+      uprofile,
+      // profile,
     }
+    
   },
 }
 </script>

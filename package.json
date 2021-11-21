@@ -10,7 +10,6 @@
   "dependencies": {
     "@braid/vue-formulate": "^2.5.2",
     "@self.id/core": "^0.1.0",
-    "@vue/composition-api": "^1.4.0",
     "vue": "^3.2.2",
     "vue-router": "^4.0.12"
   },

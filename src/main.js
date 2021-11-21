@@ -3,7 +3,6 @@ import './tailwind.css'
 import App from './AppFront.vue' // App.vue
 import { routes } from './routes.js'
 import { createRouter, createWebHistory } from 'vue-router'
-import VueFormulate from '@braid/vue-formulate'
 
 const app = createApp(App)
 

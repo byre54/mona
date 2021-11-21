@@ -2,6 +2,7 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Promo from './views/Promo.vue'
 import Award from './views/Award.vue'
+import Mint from './views/Mint.vue'
 import NotFound from './views/NotFound.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -11,4 +12,5 @@ export const routes = [
   { path: '/:path(.*)', component: NotFound },
   { path: '/promo', component: Promo},
   { path: '/award', component: Award},
+  { path: '/mint', component: Mint},
 ]

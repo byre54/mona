@@ -2,7 +2,7 @@
 
 ![mona](https://media.discordapp.net/attachments/888007499846914088/911874885066850326/MoNA_Circle.png)
 
-This project would allow organisation , community, or personal to create a digital appreciation that could be presented to other it could be people, community or organisation too and it could be validated on the blockchain as NFT could be some Certificate to be printed too that saved on the Decentralised Interplanetary File File System. 
+This project would allow organisation , community, or personal to create a digital appreciation that could be presented to other it could be people, community or organisation too and it could be validated on the blockchain as NFT could be some Art Certificate to be printed too that saved on the Decentralised Interplanetary File File System. 
 
 ![mona](https://media.discordapp.net/attachments/888007499846914088/911882721100460042/Jepretan_Layar_2021-11-21_pukul_14.35.30.png)
 
